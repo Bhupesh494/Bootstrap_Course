@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <style>
+      .h2 {
+        margin-top: 2rem;
+        border-bottom: 2px solid gold;
+      }
+
+      .h3 {
+        text-align: center;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body style="line-height: 3" class="bg-dark text-white">
+    <p class="h3">Bootstrap Buttons Examples</p>
+    <div class="container">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <!-- Button link class of Bootstrap -->
+      <button type="button" class="btn btn-link">Link</button>
+    </div>
+
+    <!-- * The .btn classes are designed to be used with the <button> element 
+         * but you can also use these classes on <a> or <input> elements also -->
+
+    <p class="h3">Button tags</p>
+    <div class="container">
+      <!-- * When using button classes on <a> elements 
+           * should be given a role="button" to appropriately convey their purpose to assistive technologies such as screen readers -->
+      <a class="btn btn-primary" href="#" role="button">Link</a>
+      <button class="btn btn-primary" type="submit">Button</button>
+      <input class="btn btn-primary" type="button" value="Input" />
+      <input class="btn btn-primary" type="submit" value="Submit" />
+      <input class="btn btn-primary" type="reset" value="Reset" />
+    </div>
+
+    <p class="h3">Outline buttons</p>
+    <div class="container">
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-light">Light</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+    </div>
+
+    <p class="h2">Sizes</p>
+    <p class="h3">Large Button</p>
+    <div class="container">
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <button type="button" class="btn btn-secondary btn-lg">
+        Large button
+      </button>
+    </div>
+    <p class="h3">Small Button</p>
+    <div class="container">
+      <button type="button" class="btn btn-primary btn-sm">Small button</button>
+      <button type="button" class="btn btn-secondary btn-sm">
+        Small button
+      </button>
+    </div>
+
+    <p class="h3">Disabled state</p>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
